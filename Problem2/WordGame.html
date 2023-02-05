@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>LAB-2: Word Game</title>
+		<script src="script.js"></script>
+	</head>
+	<body align="center">
+		<h1>Word Game:</h1>
+		<input type=button name="start" id="start" value="start game" onclick="chooseWord()" />
+		<div id="master_word">
+		</div>
+		<br>
+		<input type=text name="guess_box" id="guess_box" value="" readonly hidden />
+		<br><br>
+		<input type=button name="check_word" id="check_word" value="Click here to form a new word" onclick="addWord()" hidden />
+		<br><br>
+		<p id="words" name="boxes"></p>
+	</body>
+</html>

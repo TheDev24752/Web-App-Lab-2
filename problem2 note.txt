@@ -1,0 +1,2 @@
+no repeating letters
+words appear in a text box below
